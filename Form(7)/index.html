@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-7</title>
+</head>
+<body>
+    <form action="./submit/submit-page.html">
+        <fieldset >
+            <legend>Your details</legend>
+           <label for="">Name: <input type="text" name="" placeholder="Enter your name" id="" required></label>
+           <br><br>
+            <label for="">Email: <input type="email" name="" placeholder="Enter your email" id="" required></label>
+            <br><br>
+        </fieldset>
+        <fieldset >
+            <legend>Your Review</legend>
+           <p required>How do you find us ? <select >
+            <option disabled selected>Choose</option>
+            <option >Google</option>
+            <option >Youtube</option>
+            <option >Twitter</option>
+            <option >Facebook</option>
+            <option >Instagram</option>
+        </select></p>
+            
+            <p>Would You visit again</p>
+            <label for="yes"><input type="radio" name="visit" id="yes" required>Yes</label>
+        <label for="no"><input type="radio" name="visit" id="no"required>No</label>
+        <label for="maybe"><input type="radio" name="visit" id="maybe"required>Maybe</label>
+        <p>Comments:</p>
+        <textarea rows="5" cols="30"required></textarea>
+        <p><input type="checkbox" name="" id=""required>Sign me up for email updates</p>
+        <button type="submit">Submit review</button>
+        </fieldset>
+    </form>
+</body>
+</html>
